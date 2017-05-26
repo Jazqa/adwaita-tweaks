@@ -1,0 +1,26 @@
+/* there should be an easier way to change the shell font */
+stage {
+	font-family: ubuntu, cantarell, sans-serif;
+	font-size: 11pt;
+}
+
+/* black top panel is a no-no */
+#panel {
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid rgba(0,0,0,0.5);
+}
+
+/* what were the developers even thinking? */
+#panel .panel-corner {
+	-panel-corner-radius: 0;	
+}
+
+/* the popup-menu arrows are h-i-d-e-o-u-s */
+.popup-menu-boxpointer, 
+.candidate-popup-boxpointer {
+  -arrow-border-radius: 0;
+  -arrow-base: 0;
+  -arrow-rise: 0;
+  margin: 2px 8px 8px;
+}
+
