@@ -11,3 +11,4 @@ Simple tweaks to improve the default GNOME experience. Trying to keep it as simp
 ## Upcoming features
 - Shrink the GTK-3 headerbars
 - Simplify the bottom box-shadow of GTK-3 headerbars
+- Remove the round corners of the GTK-2/3 headerbars
