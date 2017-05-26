@@ -1,4 +1,4 @@
-# adwaita-tweaks
+# Adwaita Tweaks
 Simple tweaks to improve the default GNOME experience. Trying to keep it as simple as possible.
 
 ## Current features
