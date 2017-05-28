@@ -56,7 +56,7 @@ stage {
 	icon-size: 64px; 
 }
 
-/* add transparency to the notification banner */
+/* add transparency to the notification popups */
 .notification-banner,
 .notification-banner:hover,
 .notification-banner:focus {

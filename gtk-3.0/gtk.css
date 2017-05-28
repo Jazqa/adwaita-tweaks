@@ -8,12 +8,24 @@ headerbar,
 }
 
 /* shrink the headerbar */
-headerbar.default-decoration {
-    padding-top: 3px;
-    padding-bottom: 3px;
+.default-decoration {
+	min-height: 0px;
+    padding: 0px;
 }
 
-headerbar.default-decoration .button.titlebutton {
-    padding-top: 2px;
-    padding-bottom: 2px;
+.default-decoration .button.titlebutton {
+	min-height: 0px;
+	min-width: 0px;
+}
+
+window.ssd headerbar.titlebar {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    min-height: 0;
+}
+
+window.ssd headerbar.titlebar button.titlebutton {
+    padding-top: 3px;
+    padding-bottom:3px;
+    min-height: 0;
 }
