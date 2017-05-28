@@ -26,8 +26,39 @@ stage {
 /* the popup-menu arrows are h-i-d-e-o-u-s */
 .popup-menu-boxpointer, 
 .candidate-popup-boxpointer {
-  -arrow-border-radius: 0;
-  -arrow-base: 0;
-  -arrow-rise: 0;
-  margin: 2px 8px 8px;
+	-arrow-border-radius: 0;
+	-arrow-base: 0;
+	-arrow-rise: 0;
+	-arrow-background-color: rgba(58,65,65,0.90);
+	margin: 2px 8px 8px;
+}
+
+/* add transparency to the notifications */
+.message {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.message-list-section-title {
+	color: #E8E8E7;
+}
+.message-list-section-title:hover,
+.message-list-section-title:focus  {
+	background-color: rgba(255,255,255,0.1);
+}
+
+.message:hover,
+.message:focus {
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* big album covers, yay */
+.media-message-cover-icon {
+	icon-size: 64px; 
+}
+
+/* add transparency to the notification banner */
+.notification-banner,
+.notification-banner:hover,
+.notification-banner:focus {
+	background-color: rgba(58,65,65,0.90);
 }
