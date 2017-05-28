@@ -8,6 +8,3 @@ Simple tweaks to improve the default GNOME experience. Trying to keep it as simp
 - Removes the arrows from the popup menus
 - Adds some space for the popup menus
 - Shrinks to headebars
-
-## Upcoming features
-- Remove the round corners of the GTK-2/3 headerbars
