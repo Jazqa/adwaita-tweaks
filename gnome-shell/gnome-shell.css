@@ -6,10 +6,10 @@ stage {
 
 /* black top panel is a no-no */
 #panel {
-    background: url(panel.png);/*for transparent panel use panel-t.png*/
+    background: url(panel.png);
     background-repeat: repeat;
     height: 24px;
-	border: 1px solid rgba(0,0,0,0.5);
+	border: 1px solid rgba(0, 0, 0, 0.40);
 }
 
 /* darker panel text and icons */
@@ -29,26 +29,26 @@ stage {
 	-arrow-border-radius: 0;
 	-arrow-base: 0;
 	-arrow-rise: 0;
-	-arrow-background-color: rgba(58,65,65,0.90);
+	-arrow-background-color: rgba(58, 65, 65, 0.80);
 	margin: 2px 8px 8px;
 }
 
 /* add transparency to the notifications */
 .message {
-  background-color: rgba(255,255,255,0.1);
+  background-color: transparent;
 }
 
 .message-list-section-title {
 	color: #E8E8E7;
 }
-.message-list-section-title:hover,
+.message:focus,
 .message-list-section-title:focus  {
-	background-color: rgba(255,255,255,0.1);
+	background-color: rgba(255, 255, 255, 0.10);
 }
 
 .message:hover,
-.message:focus {
-  background-color: rgba(255,255,255,0.2);
+.message-list-section-title:hover {
+  background-color: rgba(255, 255, 255, 0.10);
 }
 
 /* big album covers, yay */
@@ -60,5 +60,5 @@ stage {
 .notification-banner,
 .notification-banner:hover,
 .notification-banner:focus {
-	background-color: rgba(58,65,65,0.90);
+	background-color: rgba(58, 65, 65, 0.80);
 }
