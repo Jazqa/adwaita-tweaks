@@ -1,10 +1,9 @@
 # Adwaita Tweaks
-Simple tweaks to improve the default GNOME experience. Trying to keep it as simple as possible.
+Minor tweaks for Adwaita GTK-3.0 and default GNOME Shell. 
 
 ## Current features
-- Makes the top panel light and gradient to match the windows
+- Makes the top panel light and gradient to match the Adwaita theme
+- Makes the whole GNOME Shell slightly transparent
+- Makes the GTK headerbars slightly smaller
 - Removes the round corners from the top panel
-- Makes the GNOME shell prefer Ubuntu fonts over Cantarell
-- Removes the arrows from the popup menus
-- Adds some space for the popup menus
-- Shrinks to headebars
+- Removes the arrows from the menus
