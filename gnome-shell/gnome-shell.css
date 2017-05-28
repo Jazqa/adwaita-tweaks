@@ -38,22 +38,32 @@ stage {
   background-color: transparent;
 }
 
-.message-list-section-title {
+.message-list-section-title { /* deprecated in 3.22 */
 	color: #E8E8E7;
 }
 .message:focus,
-.message-list-section-title:focus  {
+.message-list-section-title:focus  { /* deprecated in 3.22 */
 	background-color: rgba(255, 255, 255, 0.10);
 }
 
 .message:hover,
-.message-list-section-title:hover {
+.message-list-section-title:hover { /* deprecated in 3.22 */
   background-color: rgba(255, 255, 255, 0.10);
 }
 
 /* big album covers, yay */
 .media-message-cover-icon {
 	icon-size: 64px; 
+}
+
+/* removes the border from the new notifcation-clear button */
+.message-list-clear-button.button {
+	border: none;
+	border-color: transparent;
+}
+
+.message-list-clear-button.button:hover {
+	background-color: rgba(255, 255, 255, 0.10);
 }
 
 /* add transparency to the notification popups */
