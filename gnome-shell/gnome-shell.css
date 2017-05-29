@@ -6,16 +6,15 @@ stage {
 
 /* black top panel is a no-no */
 #panel {
-    background: url(panel.png);
-    background-repeat: repeat;
+    background-color: rgba(58, 65, 65, 0.80);
     height: 24px;
-	border: 1px solid rgba(0, 0, 0, 0.40);
+	border: 1px solid rgba(0, 0, 0, 0.50);
 }
 
 /* darker panel text and icons */
 .panel-button {
     font-weight: normal;
-    color: #444;
+    margin-top: 2px; /* moves the panel text and icons down, "centers" them */
 }
 
 /* removes the ugly corners from the panel */
@@ -31,6 +30,11 @@ stage {
 	-arrow-rise: 0;
 	-arrow-background-color: rgba(58, 65, 65, 0.80);
 	margin: 2px 8px 8px;
+}
+
+/* hides the unnecessary popup-menu separators */
+.popup-separator-menu-item {
+  border: none;
 }
 
 /* add transparency to the notifications */
@@ -71,4 +75,16 @@ stage {
 .notification-banner:hover,
 .notification-banner:focus {
 	background-color: rgba(58, 65, 65, 0.80);
+}
+
+/* adds transparency to the volume popup */
+.osd-window {
+	background-color: rgba(58, 65, 65, 0.80);
+	border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+/* adds transparency to the alt-tab switcher */
+.switcher-list {
+	background-color: rgba(58, 65, 65, 0.80);
+	border: 1px solid rgba(0, 0, 0, 0.50);
 }

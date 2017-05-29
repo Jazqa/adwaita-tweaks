@@ -1,10 +1,10 @@
 /* uses the Adwaita theme as base */
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css");
 
-/* makes the header- and titlebars gradient */
+/* removes the weird shadow from the titlebar */
 headerbar, 
 .titlebar {
-	background: #FFFFFF linear-gradient(to top, #cfcfcd, #e7e7e6);
+	background: #F4F4F4;
 }
 
 /* shrink the headerbar */
