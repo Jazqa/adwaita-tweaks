@@ -4,17 +4,16 @@ stage {
 	font-size: 11pt;
 }
 
-/* black top panel is a no-no */
+/* transculent panel */
 #panel {
     background-color: rgba(58, 65, 65, 0.80);
     height: 24px;
 	border: 1px solid rgba(0, 0, 0, 0.50);
 }
 
-/* darker panel text and icons */
+/* centers the panel text and buttons */
 .panel-button {
-    font-weight: bold;
-    margin-top: 2px; /* moves the panel text and icons down, "centers" them */
+    margin-top: 2px;
 }
 
 /* removes the ugly corners from the panel */
