@@ -12,4 +12,4 @@ Minor tweaks for Adwaita GTK-3.0 and default GNOME Shell.
 Clone the git repository to ~/.themes
 
 ## Screenshots
-![Fedora 26](http://i.imgur.com/3yZmjzd.jpg)
+![Fedora 26](http://i.imgur.com/TgxyfzL.jpg)
