@@ -1,6 +1,6 @@
 /* there should be an easier way to change the shell font */
 stage {
-	font-family: ubuntu, cantarell, sans-serif;
+	font-family: cantarell, sans-serif;
 	font-size: 11pt;
 }
 
@@ -13,7 +13,7 @@ stage {
 
 /* darker panel text and icons */
 .panel-button {
-    font-weight: normal;
+    font-weight: bold;
     margin-top: 2px; /* moves the panel text and icons down, "centers" them */
 }
 

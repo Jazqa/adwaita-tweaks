@@ -1,31 +1,49 @@
 /* uses the Adwaita theme as base */
-@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css");
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css"); 
 
-/* removes the weird shadow from the titlebar */
-headerbar, 
+.nautilus-window {
+    background: #FFFFFF;
+}
+
+/* gets rid of the nautilus' shadow */
+.nautilus-window .searchbar-container {
+  margin-top: -1px; 
+}
+
+headerbar,
 .titlebar {
 	background: #F4F4F4;
 }
 
+headerbar entry,
+headerbar spinbutton,
+headerbar button,
+headerbar separator {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 /* shrink the headerbar */
 .default-decoration {
-	min-height: 0px;
-    padding: 0px;
+	min-height: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
-.default-decoration .button.titlebutton {
-	min-height: 0px;
-	min-width: 0px;
+.default-decoration .button.titlebutton{
+	min-height: 22px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
-window.ssd headerbar.titlebar {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    min-height: 0;
+headerbar.titlebar {
+	min-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-window.ssd headerbar.titlebar button.titlebutton {
-    padding-top: 3px;
-    padding-bottom:3px;
-    min-height: 0;
+headerbar.titlebar button.titlebutton {
+	min-height: 22px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
