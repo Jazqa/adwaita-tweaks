@@ -2,11 +2,13 @@
 Minor tweaks for Adwaita GTK-3.0 and default GNOME Shell. 
 
 ## Current features
-- Makes the top panel light and gradient to match the Adwaita theme
-- Makes the whole GNOME Shell slightly transparent
+- Makes the whole GNOME Shell slightly transculent
 - Makes the GTK headerbars slightly smaller
 - Removes the round corners from the top panel
 - Removes the arrows from the menus
+
+## Under consideration
+- Square windows
 
 ## Installation
 Clone the git repository to ~/.themes
