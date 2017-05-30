@@ -7,12 +7,13 @@ stage {
 /* transculent panel */
 #panel {
     background-color: rgba(58, 65, 65, 0.80);
-    height: 24px;
+    height: 23px;
 	border: 1px solid rgba(0, 0, 0, 0.50);
 }
 
 /* centers the panel text and buttons */
 .panel-button {
+	font-size: 11pt;
     margin-top: 2px;
 }
 
@@ -33,7 +34,7 @@ stage {
 
 /* hides the unnecessary popup-menu separators */
 .popup-separator-menu-item {
-  border: none;
+	border: none;
 }
 
 /* add transparency to the notifications */
