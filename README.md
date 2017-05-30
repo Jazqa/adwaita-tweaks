@@ -7,9 +7,6 @@ Minor tweaks for Adwaita GTK-3.0 and default GNOME Shell.
 - Removes the round corners from the top panel
 - Removes the arrows from the menus
 
-## Under consideration
-- Square windows
-
 ## Installation
 Clone the git repository to ~/.themes
 
