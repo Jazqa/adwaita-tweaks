@@ -22,10 +22,10 @@ headerbar.titlebar button.titlebutton {
    	margin-bottom: 2px;
 }
 
-headerbar > entry,
-headerbar > spinbutton,
-headerbar > button,
-headerbar > separator {
+headerbar entry,
+headerbar spinbutton,
+headerbar button,
+headerbar separator {
 	min-height: 26px;
   	padding-top: 0;
   	padding-bottom: 0;
