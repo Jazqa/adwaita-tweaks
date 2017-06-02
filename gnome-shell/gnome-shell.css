@@ -14,7 +14,6 @@ stage {
 /* centers the panel text and buttons */
 .panel-button {
 	font-size: 11pt;
-    margin-top: 2px;
 }
 
 /* removes the ugly corners from the panel */
