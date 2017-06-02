@@ -25,7 +25,7 @@ headerbar.titlebar button.titlebutton {
 headerbar entry,
 headerbar spinbutton,
 headerbar button,
-headerbar separator {
+headerbar > separator {
 	min-height: 26px;
   	padding-top: 0;
   	padding-bottom: 0;
