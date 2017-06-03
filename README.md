@@ -15,10 +15,14 @@ Clone the git repository to ~/.themes
 
 After:
 ![Ubuntu GNOME 17.04](http://i.imgur.com/LcqHeiv.jpg)
-![Fedora 26](http://i.imgur.com/auxe9Yz.jpg)
 
 Before:
 ![Ubuntu GNOME 17.04](http://i.imgur.com/0M7LAyL.jpg)
+
+After:
+![Fedora 26](http://i.imgur.com/auxe9Yz.jpg)
+
+Before:
 ![Fedora 26](http://i.imgur.com/3oPMELC.jpg)
 
 [Wallpaper](https://alpha.wallhaven.cc/wallpaper/57718)
