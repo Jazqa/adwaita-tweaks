@@ -10,8 +10,12 @@ window.csd .titlebar:not(headerbar) {
 headerbar.titlebar {
 	background: #F4F4F4;
 	min-height: 0;
-    	padding-top: 0;
+    padding-top: 0;
 	padding-bottom: 0;
+}
+
+headerbar.titlebar:backdrop {
+	background: #E8E8E7;
 }
 
 headerbar.titlebar button.titlebutton {
