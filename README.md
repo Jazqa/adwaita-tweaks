@@ -1,8 +1,6 @@
 # Adwaita Tweaks
 Minor tweaks for Adwaita GTK-3.0 and default GNOME Shell.
 
-[Should I shrink the headerbars by a few more pixels?](http://www.strawpoll.me/13120025)
-
 ## Current features
 - Makes the whole GNOME Shell slightly transculent
 - Makes the GTK headerbars slightly smaller
