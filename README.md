@@ -9,7 +9,12 @@ Minor tweaks for Adwaita GTK-3.0 and default GNOME Shell.
 - Supports dark windows and has a dark variant downloadable through the releases-page
 
 ## Installation
-Clone the git repository to ~/.themes
+Via download:
+- Download through the releases-page and move to your theme folder
+
+Via cloning:
+- Clone the repository to your ~/.themes
+- Clone the dark branch to ~/.themes/adwaita-tweaks-dark
 
 ## Screenshots
 
