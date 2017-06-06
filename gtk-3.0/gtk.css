@@ -10,7 +10,7 @@ window.csd .titlebar:not(headerbar) {
 headerbar.titlebar {
 	background: #2C3133;
 	min-height: 0;
-    	padding-top: 0;
+    padding-top: 0;
 	padding-bottom: 0;
 }
 
@@ -22,8 +22,8 @@ headerbar.titlebar button.titlebutton {
 	min-height: 22px;
     	padding-top: 0;
  	padding-bottom: 0;
-    	margin-top: 2px;
-   	margin-bottom: 2px;
+    	margin-top: 1px;
+   	margin-bottom: 1px;
 }
 
 headerbar entry,
@@ -33,19 +33,24 @@ headerbar > separator {
 	min-height: 26px;
   	padding-top: 0;
   	padding-bottom: 0;
-  	margin-top: 6px;
-   	margin-bottom: 6px;
+  	margin-top: 4px;
+   	margin-bottom: 4px;
 }
 
-/* for square windows
+button > box > label.counter-label {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/*
 decoration {
-	background: #F4F4F4;
+	background: #2C3133;
     border-radius: 2;
 }
 */
 
 .nautilus-window {
-    	background: #33393B;
+    background: #33393B;
 }
 
 .nautilus-window .searchbar-container {
