@@ -74,16 +74,25 @@ stage {
 .notification-banner:hover,
 .notification-banner:focus {
 	background-color: rgba(58, 65, 65, 0.80);
+	border-radius: 0;
 }
 
 /* adds transparency to the volume popup */
 .osd-window {
 	background-color: rgba(58, 65, 65, 0.80);
 	border: 1px solid rgba(0, 0, 0, 0.50);
+	border-radius: 2px;
 }
 
 /* adds transparency to the alt-tab switcher */
 .switcher-list {
 	background-color: rgba(58, 65, 65, 0.80);
 	border: 1px solid rgba(0, 0, 0, 0.50);
+	border-radius: 2px;
+}
+.search-entry {
+	border-radius: 0px;
+	padding: 7px 9px;
+	border: 1px solid rgba(0, 0, 0, 0.50);
+	background-color: rgba(58, 65, 65, 0.80); 
 }
