@@ -17,6 +17,7 @@ Via cloning:
 - Clone the dark branch to ~/.themes/adwaita-tweaks-dark
 
 ## Screenshots
+![Comparison](http://i.imgur.com/kKVtaH2.jpg)
 
 After:
 ![Ubuntu GNOME 17.04](http://i.imgur.com/LcqHeiv.jpg)
