@@ -9,8 +9,8 @@ window.csd .titlebar:not(headerbar) {
 
 headerbar.titlebar {
 	background: #F4F4F4;
-	min-height: 0;
-    padding-top: 0;
+	min-height: 22px;
+	padding-top: 0;
 	padding-bottom: 0;
 }
 
@@ -20,10 +20,10 @@ headerbar.titlebar:backdrop {
 
 headerbar.titlebar button.titlebutton {
 	min-height: 22px;
-    padding-top: 0;
- 	padding-bottom: 0;
-    margin-top: 1px;
-   	margin-bottom: 1px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 headerbar entry,
@@ -31,10 +31,10 @@ headerbar spinbutton,
 headerbar button,
 headerbar > separator {
 	min-height: 26px;
-  	padding-top: 0;
-  	padding-bottom: 0;
-  	margin-top: 4px;
-   	margin-bottom: 4px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 
 button > box > label.counter-label {
@@ -45,12 +45,12 @@ button > box > label.counter-label {
 /*
 decoration {
 	background: #F4F4F4;
-    border-radius: 2;
+	border-radius: 2;
 }
 */
 
 .nautilus-window {
-    background: #FFFFFF;
+	background: #FFFFFF;
 }
 
 .nautilus-window .searchbar-container {
