@@ -72,8 +72,9 @@ window.active.button.unpressed.bg: Flat Solid
 window.active.button.unpressed.bg.color: #2C3133
 window.active.button.unpressed.image.color: #EBF7FC
 
-window.active.button.pressed.bg: Raised Solid Border
-window.active.button.pressed.bg.color: #2C3133
+window.active.button.pressed.bg: Raised Gradient Vertical Border
+window.active.button.pressed.bg.color: #343B3D
+window.active.button.pressed.bg.colorTo: #2A2E30
 window.active.button.pressed.bg.border.color: #1B1F20
 window.active.button.pressed.image.color: #EBF7FC
 
@@ -81,8 +82,9 @@ window.active.button.disabled.bg: Flat Solid
 window.active.button.disabled.bg.color: #2C3133
 window.active.button.disabled.image.color: #1B1F20
 
-window.active.button.hover.bg: Raised Solid Border
-window.active.button.hover.bg.color: #2C3133
+window.active.button.hover.bg: Raised Gradient Vertical Border
+window.active.button.hover.bg.color: #343B3D
+window.active.button.hover.bg.colorTo: #2A2E30
 window.active.button.hover.bg.border.color: #1B1F20
 window.active.button.hover.image.color: #EBF7FC
 
@@ -90,13 +92,15 @@ window.active.button.toggled.unpressed.bg: Flat Solid
 window.active.button.toggled.unpressed.bg.color: #2C3133
 window.active.button.toggled.unpressed.image.color: #EBF7FC
 
-window.active.button.toggled.pressed.bg: Raised Solid Border
-window.active.button.toggled.pressed.bg.color: #2C3133
+window.active.button.toggled.pressed.bg: Raised Gradient Vertical Border
+window.active.button.toggled.pressed.bg.color: #343B3D
+window.active.button.toggled.pressed.bg.colorTo: #2A2E30
 window.active.button.toggled.pressed.bg.border.color: #1B1F20
 window.active.button.toggled.pressed.image.color: #EBF7FC
 
-window.active.button.toggled.hover.bg: Raised Solid Border
-window.active.button.toggled.hover.bg.color: #2C3133
+window.active.button.toggled.hover.bg: Raised Gradient Vertical Border
+window.active.button.toggled.hover.bg.color: #343B3D
+window.active.button.toggled.hover.bg.colorTo: #2A2E30
 window.active.button.toggled.hover.bg.border.color: #1B1F20
 window.active.button.toggled.hover.image.color: #EBF7FC
 
@@ -118,8 +122,9 @@ window.inactive.button.unpressed.bg.color: #2C3133
 window.inactive.button.unpressed.bg.border.color: #1B1F20
 window.inactive.button.unpressed.image.color: #EBF7FC
 
-window.inactive.button.pressed.bg: Raised Solid Border
-window.inactive.button.pressed.bg.color: #2C3133
+window.inactive.button.pressed.bg: Raised Gradient Vertical Border
+window.inactive.button.pressed.bg.color: #343B3D
+window.inactive.button.pressed.bg.colorTo: #2A2E30
 window.inactive.button.pressed.bg.border.color: #1B1F20
 window.inactive.button.pressed.image.color: #EBF7FC
 
@@ -127,8 +132,9 @@ window.inactive.button.disabled.bg: Flat Solid
 window.inactive.button.disabled.bg.color: #2C3133
 window.inactive.button.disabled.image.color: #1B1F20
 
-window.inactive.button.hover.bg: Raised Solid Border
-window.inactive.button.hover.bg.color: #2C3133
+window.inactive.button.hover.bg: Raised Gradient Vertical Border
+window.inactive.button.hover.bg.color: #343B3D
+window.inactive.button.hover.bg.colorTo: #2A2E30
 window.inactive.button.hover.bg.border.color: #1B1F20
 window.inactive.button.hover.image.color: #EBF7FC
 
@@ -136,12 +142,14 @@ window.inactive.button.toggled.unpressed.bg: Flat Solid
 window.inactive.button.toggled.unpressed.bg.color: #2C3133
 window.inactive.button.toggled.unpressed.image.color: #EBF7FC
 
-window.inactive.button.toggled.pressed.bg: Raised Solid Border
-window.inactive.button.toggled.pressed.bg.color: #2C3133
+window.inactive.button.toggled.pressed.bg: Raised Gradient Vertical Border
+window.inactive.button.toggled.pressed.bg.color: #343B3D
+window.inactive.button.toggled.pressed.bg.colorTo: #2A2E30
 window.inactive.button.toggled.pressed.bg.border.color: #1B1F20
 window.inactive.button.pressed.toggled.image.color: #EBF7FC
 
-window.inactive.button.toggled.hover.bg: Raised Solid Border
-window.inactive.button.toggled.hover.bg.color: #2C3133
+window.inactive.button.toggled.hover.bg: Raised Gradient Vertical Border
+window.inactive.button.toggled.hover.bg.color: #343B3D
+window.inactive.button.toggled.hover.bg.colorTo: #2A2E30
 window.inactive.button.toggled.hover.bg.border.color: #1B1F20
 window.inactive.button.toggled.hover.image.color: #EBF7FC
