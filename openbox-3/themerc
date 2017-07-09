@@ -124,7 +124,7 @@ window.inactive.button.unpressed.image.color: #2E3436
 
 window.inactive.button.pressed.bg: Raised Gradient Vertical Border
 window.inactive.button.pressed.bg.color: #F4F4F4
-window.inactive.button.pressed.bg.color: #DFDFDE
+window.inactive.button.pressed.bg.colorTo: #DFDFDE
 window.inactive.button.pressed.bg.border.color: #B6B6B3
 window.inactive.button.pressed.image.color: #2E3436
 
