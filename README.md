@@ -1,12 +1,11 @@
 # Adwaita Tweaks
 Minor tweaks for Adwaita GTK-3.0 and default GNOME Shell.
 
-## Current features
-- Makes the whole GNOME Shell slightly transculent
-- Makes the GTK headerbars slightly smaller
-- Removes the round corners from the top panel
-- Removes the arrows from the menus
-- Supports dark windows and has a dark variant downloadable through the releases-page
+## Includes
+- Transculent GNOME Shell theme
+- Compact variant of the Adwaita theme
+- Light and dark variants of the Adwaita theme (Light variant supports dark windows, dark variant is downloadable through a separate branch)
+- Openbox theme made by [natemaia](https://github.com/natemaia).
 
 ## Installation
 Via download:
@@ -17,18 +16,13 @@ Via cloning:
 - Clone the dark branch to ~/.themes/adwaita-tweaks-dark
 
 ## Screenshots
-![Comparison](http://i.imgur.com/vKW8IbB.jpg)
 
 After:
-![Ubuntu GNOME 17.04](http://i.imgur.com/LcqHeiv.jpg)
+
+![After](http://i.imgur.com/gCqPEVS.png)
+
+
 
 Before:
-![Ubuntu GNOME 17.04](http://i.imgur.com/0M7LAyL.jpg)
 
-After:
-![Fedora 26](http://i.imgur.com/auxe9Yz.jpg)
-
-Before:
-![Fedora 26](http://i.imgur.com/3oPMELC.jpg)
-
-[Wallpaper](https://alpha.wallhaven.cc/wallpaper/57718)
+![Before](http://imgur.com/ju3pH8N)
