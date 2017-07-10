@@ -19,10 +19,10 @@ Via cloning:
 
 After:
 
-![After](http://i.imgur.com/gCqPEVS.png)
+![After](http://imgur.com/MfQspX0.png)
 
 
 
 Before:
 
-![Before](http://imgur.com/ju3pH8N)
+![Before](http://imgur.com/ju3pH8N.png)
