@@ -5,6 +5,7 @@ window.csd .titlebar:not(headerbar) {
 	min-height: 0;
 	padding-top: 0;
 	padding-bottom: 0;
+	box-shadow: none;
 }
 
 headerbar.titlebar {
@@ -12,10 +13,12 @@ headerbar.titlebar {
 	min-height: 22px;
 	padding-top: 0;
 	padding-bottom: 0;
+	box-shadow: none;
 }
 
 headerbar.titlebar:backdrop {
 	background: #33393B;
+	box-shadow: none;
 }
 
 headerbar.titlebar button.titlebutton {
@@ -45,7 +48,12 @@ button > box > label.counter-label {
 
 decoration {
 	background: #2C3133;
-	border-radius: 2;
+	border-radius: 2px 2px 0 0;
+}
+
+decoration:backdrop {
+	background: #33393B;
+	border-radius: 2px 2px 0 0;
 }
 
 .nautilus-window {
