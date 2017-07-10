@@ -29,7 +29,8 @@ headerbar.titlebar button.titlebutton {
 headerbar entry,
 headerbar spinbutton,
 headerbar button,
-headerbar > separator {
+headerbar > separator,
+headerbar > switch {
 	min-height: 26px;
 	padding-top: 0;
 	padding-bottom: 0;
@@ -42,12 +43,10 @@ button > box > label.counter-label {
 	margin-bottom: 3px;
 }
 
-/*
 decoration {
 	background: #F4F4F4;
 	border-radius: 2;
 }
-*/
 
 .nautilus-window {
 	background: #FFFFFF;
