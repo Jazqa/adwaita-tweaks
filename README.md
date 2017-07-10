@@ -25,4 +25,4 @@ After:
 
 Before:
 
-![Before](http://imgur.com/ju3pH8N)
+![Before](http://imgur.com/ju3pH8N.png)
