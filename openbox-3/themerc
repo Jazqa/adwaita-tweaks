@@ -28,19 +28,19 @@ menu.separator.padding.width: 6
 menu.separator.padding.height: 4
 
 # Border
-menu.border.width: 6
-menu.border.color: #2C3133
+menu.border.width: 1
+menu.border.color: #232729
 
 # Overlap
-menu.overlap.x: -10
+menu.overlap.x: 0
 menu.overlap.y: 0
 
 
 ####  Window  ####
 
 # Window geometry
-padding.width: 16
-padding.height: 8
+padding.width: 10
+padding.height: 6
 border.width: 0
 window.client.padding.width: 4
 window.client.padding.height: 0
