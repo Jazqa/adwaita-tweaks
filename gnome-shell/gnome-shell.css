@@ -6,8 +6,8 @@ stage {
 
 /* transculent panel */
 #panel {
-    background-color: rgba(58, 65, 65, 0.80);
-    height: 24px;
+	background-color: rgba(58, 65, 65, 0.80);
+	height: 24px;
 	border: 1px solid rgba(0, 0, 0, 0.50);
 }
 
@@ -90,9 +90,22 @@ stage {
 	border: 1px solid rgba(0, 0, 0, 0.50);
 	border-radius: 2px;
 }
+
 .search-entry {
 	border-radius: 0px;
 	padding: 7px 9px;
 	border: 1px solid rgba(0, 0, 0, 0.50);
 	background-color: rgba(58, 65, 65, 0.80); 
+}
+
+/* Add Dash to Dock Support */
+#dashtodockContainer #dash {
+	background-color: rgba(58, 65, 65, 0.80); 
+	border: 1px solid rgba(0, 0, 0, 0.50);
+	padding: 1px 0px;
+	border-radius: 0;
+}
+
+#dashtodock #dash:rtl {
+	border-radius: 0;
 }
