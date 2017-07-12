@@ -17,6 +17,7 @@ headerbar.titlebar {
 	box-shadow: none;
 }
 
+headerbar:backdrop,
 headerbar.titlebar:backdrop {
 	background: #33393B;
 	box-shadow: none;
@@ -31,11 +32,11 @@ headerbar.titlebar button.titlebutton {
 	margin-bottom: 2px;
 }
 
+headerbar button,
 headerbar entry,
 headerbar spinbutton,
-headerbar button,
 headerbar widget,
-headerbar > switch {
+headerbar switch {
 	min-height: 26px;
 	min-width: 26px;
 	padding: 0;
