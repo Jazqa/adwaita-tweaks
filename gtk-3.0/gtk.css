@@ -72,3 +72,8 @@ decoration:backdrop {
 	margin-top: -1px; 
 }
 
+.nautilus-desktop.nautilus-canvas-item {
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
