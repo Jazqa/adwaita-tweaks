@@ -3,8 +3,9 @@
 #### Menu ####
 
 ## Title
-menu.title.bg: Raised Solid
-menu.title.bg.color: #232729
+menu.title.bg: Gradient Vertical Raised
+menu.title.bg.color: #2E3335
+menu.title.bg.colorTo: #262A2C
 menu.title.text.color: #EBF7FC
 menu.title.text.justify: center
 
@@ -39,12 +40,12 @@ menu.overlap.y: 0
 ####  Window  ####
 
 # Window geometry
-padding.width: 10
-padding.height: 6
+padding.width: 8
+padding.height: 4
 border.width: 0
-window.client.padding.width: 4
+window.client.padding.width: 1
 window.client.padding.height: 0
-window.handle.width: 4
+window.handle.width: 2
 
 # Border colors
 window.active.border.color: #2C3133
@@ -56,8 +57,9 @@ window.inactive.client.color: #2C3133
 window.label.text.justify: Center
 
 # Active window
-window.active.title.bg: Raised Solid
-window.active.title.bg.color: #2C3133
+window.active.title.bg: Gradient Vertical Raised
+window.active.title.bg.color: #2E3335
+window.active.title.bg.colorTo: #262A2C
 
 window.active.label.bg: Parentrelative
 window.active.label.text.color: #EBF7FC
@@ -68,8 +70,7 @@ window.active.handle.bg.color: #2C3133
 window.active.grip.bg: Raised Solid
 window.active.grip.bg.color: #2C3133
 
-window.active.button.unpressed.bg: Flat Solid
-window.active.button.unpressed.bg.color: #2C3133
+window.active.button.unpressed.bg: Parentrelative
 window.active.button.unpressed.image.color: #EBF7FC
 
 window.active.button.pressed.bg: Raised Gradient Vertical Border
@@ -78,8 +79,7 @@ window.active.button.pressed.bg.colorTo: #2A2E30
 window.active.button.pressed.bg.border.color: #1B1F20
 window.active.button.pressed.image.color: #EBF7FC
 
-window.active.button.disabled.bg: Flat Solid
-window.active.button.disabled.bg.color: #2C3133
+window.active.button.disabled.bg: Parentrelative
 window.active.button.disabled.image.color: #1B1F20
 
 window.active.button.hover.bg: Raised Gradient Vertical Border
@@ -88,8 +88,7 @@ window.active.button.hover.bg.colorTo: #2A2E30
 window.active.button.hover.bg.border.color: #1B1F20
 window.active.button.hover.image.color: #EBF7FC
 
-window.active.button.toggled.unpressed.bg: Flat Solid
-window.active.button.toggled.unpressed.bg.color: #2C3133
+window.active.button.toggled.unpressed.bg: Parentrelative
 window.active.button.toggled.unpressed.image.color: #EBF7FC
 
 window.active.button.toggled.pressed.bg: Raised Gradient Vertical Border
