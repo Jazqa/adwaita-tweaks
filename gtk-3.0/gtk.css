@@ -8,6 +8,7 @@ window.csd .titlebar:not(headerbar) {
 	box-shadow: none;
 }
 
+headerbar,
 headerbar.titlebar {
 	background: linear-gradient(to bottom, rgba(244, 244, 244, 1), rgba(207, 207, 207, 1));
 	min-height: 22px;
@@ -21,6 +22,7 @@ headerbar.titlebar:backdrop {
 	box-shadow: none;
 }
 
+headerbar button.titlebutton,
 headerbar.titlebar button.titlebutton {
 	min-height: 20px;
 	min-width: 20px;
