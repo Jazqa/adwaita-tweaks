@@ -1,5 +1,6 @@
 /* uses the Adwaita theme as base */
-@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css"); 
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained.css");
+
 
 window.csd .titlebar:not(headerbar) {
 	min-height: 0;
@@ -70,6 +71,12 @@ decoration:backdrop {
 }
 
 .nautilus-window .searchbar-container {
-	margin-top: -1px; 
+	margin-top: -1px
 }
+
+.nautilus-desktop.nautilus-canvas-item {
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
 

@@ -34,6 +34,7 @@ headerbar.titlebar button.titlebutton {
 headerbar entry,
 headerbar spinbutton,
 headerbar button,
+headerbar widget,
 headerbar > switch {
 	min-height: 26px;
 	min-width: 26px;
@@ -70,5 +71,10 @@ decoration:backdrop {
 
 .nautilus-window .searchbar-container {
 	margin-top: -1px; 
+}
+
+.nautilus-desktop.nautilus-canvas-item {
+	color: white;
+	text-shadow: 1px 1px black;
 }
 
