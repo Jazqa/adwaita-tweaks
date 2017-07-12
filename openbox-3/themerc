@@ -3,9 +3,10 @@
 #### Menu ####
 
 ## Title
-menu.title.bg: Raised Solid
+menu.title.bg: Gradient Vertical Raised
 menu.title.bg.color: #F4F4F4
-menu.title.text.color: ##2E3436
+menu.title.bg.colorTo: #D2D2D1
+menu.title.text.color: #2E3436
 menu.title.text.justify: center
 
 #### Items ####
@@ -39,25 +40,26 @@ menu.overlap.y: 0
 ####  Window  ####
 
 # Window geometry
-padding.width: 10
-padding.height: 6
+padding.width: 8
+padding.height: 4
 border.width: 0
-window.client.padding.width: 4
+window.client.padding.width: 1
 window.client.padding.height: 0
-window.handle.width: 4
+window.handle.width: 2
 
 # Border colors
-window.active.border.color: #F4F4F4
-window.inactive.border.color: #F4F4F4
-window.active.client.color: #F4F4F4
-window.inactive.client.color: #F4F4F4
+window.active.border.color: #D2D2D1
+window.inactive.border.color: #D2D2D1
+window.active.client.color: #D2D2D1
+window.inactive.client.color: #D2D2D1
 
 # Window title justification
 window.label.text.justify: Center
 
 # Active window
-window.active.title.bg: Raised Solid
+window.active.title.bg: Gradient Vertical Raised
 window.active.title.bg.color: #F4F4F4
+window.active.title.bg.colorTo: #D2D2D1
 
 window.active.label.bg: Parentrelative
 window.active.label.text.color: #2E3436
@@ -68,8 +70,7 @@ window.active.handle.bg.color: #F4F4F4
 window.active.grip.bg: Raised Solid
 window.active.grip.bg.color: #F4F4F4
 
-window.active.button.unpressed.bg: Flat Solid
-window.active.button.unpressed.bg.color: #F4F4F4
+window.active.button.unpressed.bg: Parentrelative
 window.active.button.unpressed.image.color: #2E3436
 
 window.active.button.pressed.bg: Raised Gradient Vertical Border
@@ -78,9 +79,8 @@ window.active.button.pressed.bg.colorTo: #DFDFDE
 window.active.button.pressed.bg.border.color: #B6B6B3
 window.active.button.pressed.image.color: #2E3436
 
-window.active.button.disabled.bg: Flat Solid
-window.active.button.disabled.bg.color: #2C3133
-window.active.button.disabled.image.color: #B6B6B3
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #CFCFCD
 
 window.active.button.hover.bg: Raised Gradient Vertical Border
 window.active.button.hover.bg.color: #F4F4F4
@@ -88,8 +88,7 @@ window.active.button.hover.bg.colorTo: #DFDFDE
 window.active.button.hover.bg.border.color: #B6B6B3
 window.active.button.hover.image.color: #2E3436
 
-window.active.button.toggled.unpressed.bg: Flat Solid
-window.active.button.toggled.unpressed.bg.color: #F4F4F4
+window.active.button.toggled.unpressed.bg: Parentrelative
 window.active.button.toggled.unpressed.image.color: #2E3436
 
 window.active.button.toggled.pressed.bg: Raised Gradient Vertical Border
