@@ -6,8 +6,8 @@ stage {
 
 /* transculent panel */
 #panel {
-    background-color: rgba(58, 65, 65, 0.80);
-    height: 23px;
+	background-color: rgba(58, 65, 65, 0.80);
+   	height: 24px;
 	border: 1px solid rgba(0, 0, 0, 0.50);
 }
 
