@@ -26,3 +26,8 @@ After:
 Before:
 
 ![Before](http://imgur.com/ju3pH8N.png)
+
+
+Openbox:
+
+![Openbox](http://i.imgur.com/j0GmIOc.png)
