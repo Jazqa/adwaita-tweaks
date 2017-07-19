@@ -79,5 +79,13 @@ decoration:backdrop {
 	text-shadow: 1px 1px black;
 }
 
+.nautilus-window .floating-bar {
+	border: 1px solid rgba(43, 48, 50, 1);
+	border-radius: 2px;
+	background-color: #33393B;
+	color: #EEEEEC;
+ }
+
+
 
 
