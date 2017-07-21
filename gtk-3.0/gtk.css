@@ -71,6 +71,11 @@ decoration:backdrop {
 	background: #FFFFFF;
 }
 
+.nautilus-window treeview .view {
+	background: #FFFFFF;
+	border-bottom: 1px solid rgba(232, 232, 232, 1);
+}
+
 .nautilus-window .searchbar-container {
 	margin-top: -1px
 }
@@ -79,6 +84,9 @@ decoration:backdrop {
 	color: white;
 	text-shadow: 1px 1px black;
 }
+
+
+
 
 .nautilus-window .floating-bar {
 	border: 1px solid rgba(195, 196, 196, 1);
