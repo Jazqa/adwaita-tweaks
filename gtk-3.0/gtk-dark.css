@@ -71,6 +71,7 @@ decoration:backdrop {
 }
 
 .nautilus-window treeview .view {
+	color: #EEEEEC
 	background: #232729;
 	border-bottom: 1px solid rgba(50, 56, 58, 1);
 }
