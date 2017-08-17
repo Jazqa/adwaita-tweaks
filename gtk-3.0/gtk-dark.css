@@ -71,9 +71,14 @@ decoration:backdrop {
 }
 
 .nautilus-window treeview .view {
-	color: #EEEEEC
+	color: #EEEEEC;
 	background: #232729;
 	border-bottom: 1px solid rgba(50, 56, 58, 1);
+}
+
+.nautilus-window treeview .view:selected {
+	color: #EEEEEC;
+	background: #4A90D9;
 }
 
 .nautilus-window .searchbar-container {

@@ -77,6 +77,11 @@ decoration:backdrop {
 	border-bottom: 1px solid rgba(232, 232, 232, 1);
 }
 
+.nautilus-window treeview .view:selected {
+	color: #232729;
+	background: #4A90D9;
+}
+
 .nautilus-window .searchbar-container {
 	margin-top: -1px
 }
