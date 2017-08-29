@@ -7,7 +7,7 @@ Minor tweaks for Adwaita GTK-3.0 and default GNOME Shell.
 - Openbox theme made by [natemaia](https://github.com/natemaia).
 
 ## Installation
-`git clone https.//github.com/Jazqa/adwaita-tweaks.git ~/.themes/'Adwaita Tweaks'`
+`git clone https://github.com/Jazqa/adwaita-tweaks.git ~/.themes/'Adwaita Tweaks'`
 
 ## Screenshots
 
