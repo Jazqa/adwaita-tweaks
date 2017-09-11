@@ -12,7 +12,7 @@ Normal:
 `git clone https://github.com/Jazqa/adwaita-tweaks.git ~/.themes/'Adwaita Tweaks'`
 
 Dark:
-`git clone https://github.com/Jazqa/adwaita-tweaks.git ~/.themes/'Adwaita Tweaks'`
+`git clone https://github.com/Jazqa/adwaita-tweaks.git -b dark ~/.themes/'Adwaita Tweaks Dark'`
 
 ## Screenshots
 
