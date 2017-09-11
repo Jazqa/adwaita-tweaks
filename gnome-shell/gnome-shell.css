@@ -1,42 +1,37 @@
-/* there should be an easier way to change the shell font */
 stage {
 	font-family: cantarell, sans-serif;
 	font-size: 11pt;
 }
 
-/* transculent panel */
 #panel {
-	background-color: rgba(58, 65, 65, 0.80);
-	height: 24px;
-	border: 1px solid rgba(0, 0, 0, 0.50);
+	background-color: rgba(58, 65, 65, 0.70);
+	height: 23px;
+	box-shadow: 0px 0px 6px 0px #4A4F51;
 }
 
-/* centers the panel text and buttons */
 .panel-button {
 	font-size: 11pt;
 }
 
-/* removes the ugly corners from the panel */
 #panel .panel-corner {
 	-panel-corner-radius: 0;	
 }
 
-/* the popup-menu arrows are h-i-d-e-o-u-s */
 .popup-menu-boxpointer, 
 .candidate-popup-boxpointer {
-	-arrow-border-radius: 0;
+	-arrow-border-radius: 2px;
 	-arrow-base: 0;
 	-arrow-rise: 0;
-	-arrow-background-color: rgba(58, 65, 65, 0.80);
-	margin: 2px 8px 8px;
+	-arrow-background-color: transparent;
+	border-radius: 2px;
+	background-color: rgba(58, 65, 65, 0.70);
+	box-shadow: 0px 0px 12px 1px #4A4F51;
 }
 
-/* hides the unnecessary popup-menu separators */
 .popup-separator-menu-item {
 	border: none;
 }
 
-/* add transparency to the notifications */
 .message {
   background-color: transparent;
 }
@@ -54,12 +49,10 @@ stage {
   background-color: rgba(255, 255, 255, 0.10);
 }
 
-/* big album covers, yay */
 .media-message-cover-icon {
 	icon-size: 64px; 
 }
 
-/* removes the border from the new notifcation-clear button */
 .message-list-clear-button.button {
 	border: none;
 	border-color: transparent;
@@ -69,36 +62,35 @@ stage {
 	background-color: rgba(255, 255, 255, 0.10);
 }
 
-/* add transparency to the notification popups */
 .notification-banner,
 .notification-banner:hover,
 .notification-banner:focus {
 	background-color: rgba(58, 65, 65, 0.80);
-	border-radius: 0;
+	border-radius: 2px;
+	box-shadow: 0px 0px 12px 1px #4A4F51;
 }
 
-/* adds transparency to the volume popup */
 .osd-window {
 	background-color: rgba(58, 65, 65, 0.80);
 	border: 1px solid rgba(0, 0, 0, 0.50);
 	border-radius: 2px;
+	box-shadow: 0px 0px 12px 1px #4A4F51;
 }
 
-/* adds transparency to the alt-tab switcher */
 .switcher-list {
 	background-color: rgba(58, 65, 65, 0.80);
 	border: 1px solid rgba(0, 0, 0, 0.50);
 	border-radius: 2px;
+	box-shadow: 0px 0px 12px 1px #4A4F51;
 }
-
 .search-entry {
 	border-radius: 0px;
 	padding: 7px 9px;
 	border: 1px solid rgba(0, 0, 0, 0.50);
-	background-color: rgba(58, 65, 65, 0.80); 
+	background-color: rgba(58, 65, 65, 0.80);
+	border: 1px solid rgba(0, 0, 0, 0.50);
 }
 
-/* Add Dash to Dock Support */
 #dashtodockContainer #dash {
 	background-color: rgba(58, 65, 65, 0.80); 
 	border: 1px solid rgba(0, 0, 0, 0.50);
