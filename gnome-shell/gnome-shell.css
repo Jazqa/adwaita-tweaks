@@ -1,10 +1,8 @@
-/* there should be an easier way to change the shell font */
 stage {
 	font-family: cantarell, sans-serif;
 	font-size: 11pt;
 }
 
-/* transculent panel */
 #panel {
 	background-color: rgba(58, 65, 65, 0.70);
 	height: 23px;
