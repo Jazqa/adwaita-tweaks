@@ -30,7 +30,7 @@ Dark:
 
 Gnome:
 
-![GNOME](https://cn.pling.com/img/d/9/2/2/820d11dc2aad390adfb282586e34fddfecb4.png)
+![GNOME](https://cn.pling.com/img/4/d/b/2/a4470d00821bb3210a9eb71ce2a2f380ba43.png)
 
 
 Openbox:
