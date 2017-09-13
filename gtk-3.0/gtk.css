@@ -95,5 +95,20 @@ decoration:backdrop {
 	border-radius: 2px;
 	background-color: #33393B;
 	color: #EEEEEC;
- }
+}
+
+.disk-space-display.unknown {
+	background-color: #7f817c;
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+.disk-space-display.used {
+	background-color: #6e95c9;
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+.disk-space-display.free {
+	background-color: #ececea;
+	border-color: rgba(0, 0, 0, 0.5);
+}
 
