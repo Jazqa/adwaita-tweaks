@@ -17,10 +17,10 @@ style "default" {
   GtkWidget::focus-line-width = 1
   GtkWidget::focus-line-pattern = "\2\1"
 
-  GtkToolbar::internal-padding = 4
-  GtkToolButton::icon-spacing  = 4
+  GtkToolbar::internal-padding = 1
+  GtkToolButton::icon-spacing  = 2
 
-  GtkWidget::tooltip-radius    = 3
+  GtkWidget::tooltip-radius    = 2
   GtkWidget::tooltip-alpha     = 235
   GtkWidget::new-tooltip-style = 1 #for compatibility
 
@@ -40,10 +40,10 @@ style "default" {
 
   GtkButton::default-border         = {0, 0, 0, 0}
   GtkButton::default-outside-border = {0, 0, 0, 0}
-  GtkButton::inner-border           = {4, 4, 4, 4}
+  GtkButton::inner-border           = {1, 1, 1, 1}
 
   GtkEntry::state-hint = 1
-  GtkEntry::inner-border = {7, 7, 4, 5}
+  GtkEntry::inner-border = {2, 2, 2, 2}
 
   GtkPaned::handle-size = 9
   GtkHPaned::handle-size = 9
@@ -1146,17 +1146,6 @@ style "default" {
       file     = "assets/scale-slider-insensitive.png"
     }
 
-    ###########
-    # Menubar #
-    ###########
-
-    image {
-      function = BOX
-      detail   = "menubar"
-      file     = "assets/line.png"
-      border   = {0, 0, 0, 1}
-    }
-
     #########
     # Menus #
     #########
@@ -1505,8 +1494,8 @@ style "menubar" {
 
 style "menubar_item" {
 
-  xthickness = 3
-  ythickness = 4
+  xthickness = 2
+  ythickness = 1
 
   fg[PRELIGHT] = @link_color
 
@@ -1774,7 +1763,7 @@ style "separator_menu_item" {
 style "button" {
 
   xthickness = 2
-  ythickness = 2
+  ythickness = 3
 
   # For the sake of sanity style buttons this way
   engine "pixmap" {
