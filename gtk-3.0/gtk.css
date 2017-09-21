@@ -1,11 +1,22 @@
 /* uses the Adwaita theme as base */
 @import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css"); 
 
-window.csd .titlebar:not(headerbar) {
+window.csd .titlebar:not(headerbar),
+window.csd .titlebar {
 	min-height: 0;
 	padding-top: 0;
 	padding-bottom: 0;
 	box-shadow: none;
+	border-bottom: 1px solid #14191C;
+}
+
+window.csd .titlebar:not(headerbar):backdrop,
+window.csd .titlebar:backdrop {
+	min-height: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	box-shadow: none;
+	border-bottom: 1px solid #14191C;
 }
 
 headerbar,
@@ -15,12 +26,15 @@ headerbar.titlebar {
 	padding-top: 0;
 	padding-bottom: 0;
 	box-shadow: none;
+	border: none;
+	border-bottom: 1px solid #14191C;
 }
 
 headerbar:backdrop,
 headerbar.titlebar:backdrop {
 	background: #33393B;
 	box-shadow: none;
+	border-bottom: 1px solid #14191C;
 }
 
 headerbar button.titlebutton,
@@ -54,6 +68,42 @@ headerbar > separator {
 button > box > label.counter-label {
 	margin-top: 3px;
 	margin-bottom: 3px;
+}
+
+button {
+	background: linear-gradient(to bottom, rgba(46, 51, 53, 1), rgba(38, 42, 44, 1));
+	padding: 3px 4px;
+	min-height: 10px;
+	min-width: 12px;
+}
+
+button.osd {
+	padding: 0;
+	margin: 0;
+}
+
+entry {
+	padding: 2px 4px;
+	margin: 0;
+	min-height: 8px;
+}
+
+menubar > menuitem,
+.menubar > menuitem {
+	padding: 1px 6px;
+	margin: 0;
+}
+
+
+notebook {
+	padding: 0;
+}
+
+notebook > header > tabs,
+notebook > header > tabs > tab {
+	background-color: #202425;
+	padding: 2px 6px;
+	min-height: 12px;
 }
 
 decoration {
@@ -112,3 +162,7 @@ decoration:backdrop {
 	border-color: rgba(0, 0, 0, 0.5);
 }
 
+list row {
+    padding: 0; 
+    min-height: 28px;
+}
