@@ -3,11 +3,12 @@
 
 window.csd .titlebar:not(headerbar),
 window.csd .titlebar {
+	background: linear-gradient(to bottom, rgba(69, 70, 70, 1), rgba(44, 52, 55, 1));
 	min-height: 0;
 	padding-top: 0;
 	padding-bottom: 0;
 	box-shadow: none;
-	border-bottom: 1px solid #14191C;
+	border-bottom: 1px solid #1C2124;
 }
 
 window.csd .titlebar:not(headerbar):backdrop,
@@ -16,25 +17,25 @@ window.csd .titlebar:backdrop {
 	padding-top: 0;
 	padding-bottom: 0;
 	box-shadow: none;
-	border-bottom: 1px solid #14191C;
+	border-bottom: 1px solid #1C2124;
 }
 
 headerbar,
 headerbar.titlebar {
-	background: linear-gradient(to bottom, rgba(46, 51, 53, 1), rgba(38, 42, 44, 1));
+	background: linear-gradient(to bottom, rgba(69, 70, 70, 1), rgba(51, 57, 59, 1));
 	min-height: 22px;
 	padding-top: 0;
 	padding-bottom: 0;
 	box-shadow: none;
 	border: none;
-	border-bottom: 1px solid #14191C;
+	border-bottom: 1px solid #33393B;
 }
 
 headerbar:backdrop,
 headerbar.titlebar:backdrop {
 	background: #33393B;
 	box-shadow: none;
-	border-bottom: 1px solid #14191C;
+	border-bottom: 1px solid #33393B;
 }
 
 headerbar button.titlebutton,
@@ -51,6 +52,7 @@ headerbar entry,
 headerbar spinbutton,
 headerbar widget,
 headerbar switch {
+	background: linear-gradient(to bottom, rgba(69, 70, 70, 1), rgba(44, 52, 55, 1));
 	min-height: 26px;
 	min-width: 26px;
 	padding: 0;
@@ -71,9 +73,8 @@ button > box > label.counter-label {
 }
 
 button {
-	background: linear-gradient(to bottom, rgba(46, 51, 53, 1), rgba(38, 42, 44, 1));
-	padding: 3px 4px;
-	min-height: 10px;
+	padding: 4px 4px;
+	min-height: 12px;
 	min-width: 12px;
 }
 
@@ -94,9 +95,17 @@ menubar > menuitem,
 	margin: 0;
 }
 
-
-notebook {
+menu,
+.menu {
 	padding: 0;
+	margin: 0;
+}
+
+menu menuitem,
+.menu menuitem {
+	min-height: 12px;
+	min-width: 24px;
+	padding: 3px;
 }
 
 notebook > header > tabs,
@@ -107,7 +116,7 @@ notebook > header > tabs > tab {
 }
 
 decoration {
-	background: #2C3133;
+	background: #444545;
 	border-radius: 2px 2px 0 0;
 }
 
