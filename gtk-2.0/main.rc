@@ -1524,8 +1524,8 @@ style "menu" {
 
 style "menu_item" {
 
-  xthickness = 3
-  ythickness = 4
+  xthickness = 1
+  ythickness = 2
 
   bg[PRELIGHT]   = @selected_bg_color
   # Chromium uses this setting
@@ -1763,7 +1763,7 @@ style "separator_menu_item" {
 style "button" {
 
   xthickness = 2
-  ythickness = 3
+  ythickness = 2
 
   # For the sake of sanity style buttons this way
   engine "pixmap" {
