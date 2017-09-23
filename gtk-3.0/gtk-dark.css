@@ -7,7 +7,7 @@ window.csd .titlebar {
 	min-height: 0;
 	padding-top: 0;
 	padding-bottom: 0;
-	box-shadow: none;
+	box-shadow: none;#33393B
 	border-bottom: 1px solid #14191C;
 }
 
@@ -48,11 +48,18 @@ headerbar.titlebar button.titlebutton {
 }
 
 headerbar button,
-headerbar entry,
-headerbar spinbutton,
-headerbar widget,
-headerbar switch {
+headerbar widget {
 	background: linear-gradient(to bottom, rgba(69, 70, 70, 1), rgba(44, 52, 55, 1));
+	min-height: 26px;
+	min-width: 26px;
+	padding: 0;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+headerbar entry,
+headerbar switch,
+headerbar spinbutton {
 	min-height: 26px;
 	min-width: 26px;
 	padding: 0;
@@ -112,10 +119,14 @@ notebook {
 	padding: 0;
 }
 
-notebook > header > tabs,
+notebook > header > tabs {
+	background-color: #33393B;
+	padding: 2px;
+	min-height: 12px;
+}
+
 notebook > header > tabs > tab {
-	background-color: #202425;
-	padding: 2px 6px;
+    padding: 2px;
 	min-height: 12px;
 }
 
