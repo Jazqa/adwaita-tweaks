@@ -7,7 +7,7 @@ window.csd .titlebar {
 	min-height: 0;
 	padding-top: 0;
 	padding-bottom: 0;
-	box-shadow: none;#33393B
+	box-shadow: none;
 	border-bottom: 1px solid #14191C;
 }
 
@@ -80,14 +80,7 @@ button > box > label.counter-label {
 }
 
 button {
-	padding: 4px 4px;
 	min-height: 12px;
-	min-width: 12px;
-}
-
-button.osd {
-	padding: 0;
-	margin: 0;
 }
 
 entry {
@@ -145,7 +138,7 @@ decoration:backdrop {
 }
 
 .nautilus-window treeview .view {
-	color: #EEEEEC
+	color: #EEEEEC;
 	background: #232729;
 	border-bottom: 1px solid rgba(50, 56, 58, 1);
 }
@@ -188,5 +181,5 @@ decoration:backdrop {
 
 list row {
     padding: 0; 
-    min-height: 28px;
+    min-height: 18px;
 }
