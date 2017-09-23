@@ -8,7 +8,7 @@ window.csd .titlebar {
 	padding-top: 0;
 	padding-bottom: 0;
 	box-shadow: none;
-	border-bottom: 1px solid #1C2124;
+	border-bottom: 1px solid #14191C;
 }
 
 window.csd .titlebar:not(headerbar):backdrop,
@@ -17,7 +17,7 @@ window.csd .titlebar:backdrop {
 	padding-top: 0;
 	padding-bottom: 0;
 	box-shadow: none;
-	border-bottom: 1px solid #1C2124;
+	border-bottom: 1px solid #14191C;
 }
 
 headerbar,
@@ -48,11 +48,18 @@ headerbar.titlebar button.titlebutton {
 }
 
 headerbar button,
-headerbar entry,
-headerbar spinbutton,
-headerbar widget,
-headerbar switch {
+headerbar widget {
 	background: linear-gradient(to bottom, rgba(69, 70, 70, 1), rgba(44, 52, 55, 1));
+	min-height: 26px;
+	min-width: 26px;
+	padding: 0;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+headerbar entry,
+headerbar switch,
+headerbar spinbutton {
 	min-height: 26px;
 	min-width: 26px;
 	padding: 0;
@@ -108,10 +115,18 @@ menu menuitem,
 	padding: 3px;
 }
 
-notebook > header > tabs,
+notebook {
+	padding: 0;
+}
+
+notebook > header > tabs {
+	background-color: #33393B;
+	padding: 2px;
+	min-height: 12px;
+}
+
 notebook > header > tabs > tab {
-	background-color: #202425;
-	padding: 2px 6px;
+    padding: 2px;
 	min-height: 12px;
 }
 
