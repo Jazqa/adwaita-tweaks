@@ -177,11 +177,6 @@ notebook > header > tabs > tab {
 	border-color: rgba(0, 0, 0, 0.5);
 }
 
-list row {
-    padding: 0; 
-    min-height: 18px;
-}
-
 
 
 
