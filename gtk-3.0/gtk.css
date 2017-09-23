@@ -94,9 +94,7 @@ button {
 }
 
 entry {
-	padding: 2px 4px;
-	margin: 0;
-	min-height: 8px;
+	min-height: 12px;
 }
 
 menubar > menuitem,
