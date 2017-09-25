@@ -42,16 +42,18 @@ menu.overlap.y: 0
 # Window geometry
 padding.width: 8
 padding.height: 4
-border.width: 0
+border.width: 1
 window.client.padding.width: 1
 window.client.padding.height: 0
 window.handle.width: 2
 
 # Border colors
-window.active.border.color: #33393B
-window.inactive.border.color: #33393B
+window.active.border.color: #232729
+window.inactive.border.color: #232729
 window.active.client.color: #33393B
 window.inactive.client.color: #33393B
+window.active.title.separator.color: #33393B
+window.inactive.title.separator.color: #33393B
 
 # Window title justification
 window.label.text.justify: Center
