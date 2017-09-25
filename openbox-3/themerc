@@ -58,7 +58,7 @@ window.label.text.justify: Center
 
 # Active window
 window.active.title.bg: Flat Gradient Vertical
-window.active.title.bg.color: #3F4040
+window.active.title.bg.color: #3B4042
 window.active.title.bg.colorTo: #33393B
 
 
