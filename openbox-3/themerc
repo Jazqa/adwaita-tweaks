@@ -67,10 +67,10 @@ window.active.title.bg.colorTo: #33393B
 window.active.label.bg: Parentrelative
 window.active.label.text.color: #EBF7FC
 
-window.active.handle.bg: Raised Solid
+window.active.handle.bg: Flat Solid
 window.active.handle.bg.color: #33393B
 
-window.active.grip.bg: Raised Solid
+window.active.grip.bg: Flat Solid
 window.active.grip.bg.color: #33393B
 
 window.active.button.unpressed.bg: Parentrelative
@@ -101,10 +101,10 @@ window.inactive.title.bg.color: #33393B
 window.inactive.label.bg: Parentrelative
 window.inactive.label.text.color: #B6B6B3
 
-window.inactive.handle.bg: Raised Solid
+window.inactive.handle.bg: Flat Solid
 window.inactive.handle.bg.color: #33393B
 
-window.inactive.grip.bg: Raised Solid
+window.inactive.grip.bg: Flat Solid
 window.inactive.grip.bg.color: #33393B
 
 window.inactive.button.unpressed.bg: Parentrelative
